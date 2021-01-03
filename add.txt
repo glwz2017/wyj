@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title><p>添加学生</p></title>
+        <style>
+            p{
+                font-size: 100px;
+                }
+            body{
+                font-size: 12px;
+                font-family: "宋体";
+            }
+            .blue{
+                border-color: blueviolet;}
+                .font1{color: coral;}
+        </style>
+    </head>
+    <body>
+     <div align="center">
+         <h2>添加学生</h2>
+         <p></p>
+         <form action="add.html" method="POST">
+            <table width="800" border="0" align="center">
+                <tr>
+                    <td width="80"><b>学生姓名：</b></td>
+                    <td><input type="text" name="sname" class="blue"></td>
+                    <td class="font1"></td>
+                </tr>
+                <tr>
+                    <td width="80"><b>学生年龄：</b></td>
+                    <td><input type="text" name="sage" class="blue"></td>
+                    <td class="font1"></td>
+                </tr>
+                <tr>
+                    <td width="80"><b>学生年级：</b></td>
+                    <td><input type="text" name="sgrade" class="blue"></td>
+                    <td class="font1"></td>
+                </tr>
+                <tr>
+                    <td width="80"><b>学生成绩：</b></td>
+                    <td><input type="text" name="sscore" class="blue"></td>
+                    <td class="font1"></td>
+                </tr>
+                <tr>
+                    <td><b>学生性别：   </b></td>
+                    <td colspan="2">
+                    <input type="radio" name="ssex" value="女" checked/>女
+                    <input type="radio" name="ssex" value="男"/>男 <br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><input type="submit" value="提交"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><input type="reset" value="重置"></td>
+                </tr>
+            </table>
+        </form>
+     </div>
+    </body>
+</html>
